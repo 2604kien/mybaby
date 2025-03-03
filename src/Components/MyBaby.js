@@ -74,7 +74,11 @@ export default function MyBaby(){
     }}>
         <div className="mybaby">
             <h1 style={{fontWeight:"bold"}}>Bùi Hằng Nguyên</h1>
+            <br/>
+            <br/>
             <img src={CatMeme} style={{minWidth:"340px", width:"30%"}}alt="angry-cat"/>
+            <br/>
+            <br/>
             <div style={{
                 display:"flex",
                 justifyContent:"center",
