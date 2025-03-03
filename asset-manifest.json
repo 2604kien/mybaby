@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mybaby/static/css/main.fd2fdf32.css",
-    "main.js": "/mybaby/static/js/main.ca930c41.js",
+    "main.js": "/mybaby/static/js/main.b86b69c7.js",
     "static/js/787.1ed0c42c.chunk.js": "/mybaby/static/js/787.1ed0c42c.chunk.js",
     "static/media/Coffee1.png": "/mybaby/static/media/Coffee1.8322fe8a8b369529cd1b.png",
     "static/media/Coffee3.png": "/mybaby/static/media/Coffee3.793aba8a86697ed464af.png",
@@ -77,7 +77,7 @@
     "static/media/javascript.png": "/mybaby/static/media/javascript.166865dacb77d214f485.png",
     "static/media/9man.png": "/mybaby/static/media/9man.b44f41b9ab84c520882e.png",
     "static/media/racing5.png": "/mybaby/static/media/racing5.d65208f9bd35b23057c5.png",
-    "static/media/CatMeme.jpeg": "/mybaby/static/media/CatMeme.f37aa140bc684c5a0365.jpeg",
+    "static/media/CatMeme.jpeg": "/mybaby/static/media/CatMeme.4bc8d4af7c084797a379.jpeg",
     "static/media/Html.png": "/mybaby/static/media/Html.5b4f7830e55f859417f6.png",
     "static/media/React.png": "/mybaby/static/media/React.ac14d2f265d39f14fb97.png",
     "static/media/postman.svg": "/mybaby/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
@@ -87,11 +87,11 @@
     "static/media/mongodb.svg": "/mybaby/static/media/mongodb.d18b3c0417bd19d758ccab324a5a44a5.svg",
     "static/media/github.svg": "/mybaby/static/media/github.db432c59c1ea8141b12c7b23462c1f05.svg",
     "main.fd2fdf32.css.map": "/mybaby/static/css/main.fd2fdf32.css.map",
-    "main.ca930c41.js.map": "/mybaby/static/js/main.ca930c41.js.map",
+    "main.b86b69c7.js.map": "/mybaby/static/js/main.b86b69c7.js.map",
     "787.1ed0c42c.chunk.js.map": "/mybaby/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd2fdf32.css",
-    "static/js/main.ca930c41.js"
+    "static/js/main.b86b69c7.js"
   ]
 }
