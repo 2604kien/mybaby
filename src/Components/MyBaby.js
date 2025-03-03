@@ -55,13 +55,6 @@ export default function MyBaby(){
     }
     const display=(
         <>
-            <div id="hearts-alpaca" className="hearts">
-            <div className="heart"></div>
-            <div className="heart"></div>
-            <div className="heart"></div>
-            <div className="heart"></div>
-            
-            </div>
             {babyDate.time && <TimeSelect handleTimeSelect={handleTimeSelect}/>}
             {babyDate.activities && <ActivitySelect handleActivitiesSelect={handleActivitiesSelect}/>}
             {babyDate.food && <FoodSelect handleFoodSelect={handleFoodSelect}/>}
@@ -74,7 +67,22 @@ export default function MyBaby(){
     }}>
         <div className="mybaby">
             <h1 style={{fontWeight:"bold"}}>Bùi Hằng Nguyên</h1>
-            <img src={CatMeme} style={{minWidth:"340px", width:"30%"}}alt="angry-cat"/>
+            <br/>
+            <br/>
+            <div style={{
+                display:"flex",
+                position:"relative"
+            }}>
+                <img src={CatMeme} style={{minWidth:"340px", width:"30%"}}alt="angry-cat"/>
+                <div id="hearts-alpaca" className="hearts">
+                    <div className="heart"></div>
+                    <div className="heart"></div>
+                    <div className="heart"></div>
+                    <div className="heart"></div>
+                </div>
+            </div>
+            <br/>
+            <br/>
             <div style={{
                 display:"flex",
                 justifyContent:"center",
