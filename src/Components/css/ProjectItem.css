@@ -1,0 +1,140 @@
+
+.cover-image {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  margin: 0;
+}
+@media only screen and (max-width: 400px){
+  .cover-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.wrapper {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.projectName{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding-left: 20px;
+}
+.projectItem:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+.wrapper::before {
+  top: 0;
+  height: 100%;
+  
+}
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+  
+}
+
+.projectItem:hover .wrapper::before,
+.wrapper::after {
+  opacity: 1;
+}
+
+.projectItem:hover .wrapper::after {
+  height: 120px;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 300px;
+  height: fit-content;
+}
+
+.projectItem:hover .projectContent {
+  opacity: 1;
+  transform: translate3d(0%, -25%, 0px);
+}
+
+
+.projectItem:hover{
+  box-shadow: none;
+}
+
+.projectItem{
+    display: flex;
+    flex-direction: column;
+    place-content: flex-end;
+    font-size: 30px;
+    width: 100%;
+    height:300px;
+    margin-bottom: 5vh;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+.clickToKnow{
+    opacity: 0;
+}
+
+.prev{
+    height: 100px;
+    width: 50px;
+    color: white;
+    transform: scaleX(-1);
+    opacity: 0.5;
+    z-index: 20;
+}
+.next{
+    height: 100px;
+    width: 50px;
+    color: white;
+    opacity: 0.5;
+    z-index: 20;
+}
+.next:hover{
+    scale: 1.1;
+}
+.prev:hover{
+    scale: 1.1;
+}
+@media only screen and (max-width: 900px){
+    .next{
+        scale: 0.6
+    }
+    .next:hover{
+        scale: 0.7
+    }   
+    .prev{
+        scale: 0.6
+    }
+    .prev:hover{
+        scale: 0.7
+    }
+}
